@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box; 
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content{
+    height: 35px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.753);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    background-color: white;
+    height: 50px;
+    width: 120px;
+}
+.logo{
+    background-image: url(amazon-logo.png);
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    width: 120px;
+}
+/* .border{
+    border: 1.5px solid white;
+} */
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-address{
+    
+    align-items: center;
+    margin-top: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+#add1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+#add2{
+    color: #cccccc;
+    font-size: 1.6rem;
+    margin-left: 15px;
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    margin-left: 15px;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #e6d2d2;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    
+}
+.search-icon{
+    width: 45px;
+    color: black;
+    background-color:#ebca0f;
+    display: flex;
+    justify-content: center;
+        margin-left: 15px;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    
+}
+.lang{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+}
+#flag{
+    background-image: url(Flag.png);
+    background-size: cover;
+    background-position: center;
+    width: 23px;
+    height: 13px;
+}
+#lang1{
+    font-size: 12px;
+    margin-left: 4px;
+}
+.nav-singin{
+    width: 140px;
+    height: 50px;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+    
+}
+#sing1{
+    font-size: 12px;
+    margin-top: 8px;
+    
+}
+#sing2{
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 1.5px;
+}
+#sing12{
+    display: flex;
+    align-items: center;
+}
+.order{
+    width: 75px;
+    height: 50px;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#ret1{
+    font-size: 12px;
+    margin-top: 8px;
+    
+}
+#ret2{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.cart{
+    width: 60px;
+    height: 50px;
+    display: flex;;
+    align-items: center;
+}
+#cart1{
+    font-size: 12px;
+    margin-top: 8px;
+    text-decoration: capitalize;
+    margin-left: 3px;
+}
+.all{
+    display: flex;
+    align-items: center;
+}
+#list{
+    margin-right: 5px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    height: 28px;
+    margin-left: 15px;
+    margin-top: 5px;
+    
+}
+.mainImage{
+    background-image: url(mainImage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+   
+}
+.boxMain{
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 300px;
+    height: 340px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;  /*row, reverse row, column, reverse column*/
+    justify-content: center;  /*space-between, space-around, flex-end, flex-start, center */
+    flex-wrap: wrap;
+    align-items: center;
+}
+.boxMain:hover{
+    background-color: rgba(3, 151, 151, 0.33);
+    transform: scale(1.1);
+    transition: all 1.4s ease-in-out .2s;
+}
+.appliances{
+    height: 80px;
+    width: 100px;
+    margin: 20px;
+}
+
+.see{
+    height: 10px;
+    width: 100%;
+    margin: 20px;
+    color: rgba(0, 0, 255, 0.5);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.see:hover{
+    color: rgba(0, 0, 255, 0.8);
+}
+
+
+
+
+
+
