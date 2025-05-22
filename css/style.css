@@ -1,0 +1,332 @@
+*{
+    font-family: "times new roman";
+}
+h1 {
+    background-color: blue;
+    color: rgb(225, 255, 0);
+}
+#id1{
+    color:blueviolet;
+    background-color: black;
+    
+}
+#id2{
+    color:rgb(0, 255, 0);
+    background-color: blue;
+}
+button{
+    height:50px;
+    width: 150px;
+    color: white;
+    font-size: 22px;
+    background-color: black;
+    border: 2px solid white; /*bordershorthand*/
+    border-radius: 15px; 
+    margin: 30px;
+    display: block;
+}
+
+body {
+    background-color: rgb(133 154 204);
+}
+
+.c1{
+    color:chartreuse;
+}
+.c2{
+    color:rgb(241, 231, 231);
+    background-color: blue;
+
+}
+.c3{
+    color:orange;
+}
+#idc3{
+    color: red
+}
+div{
+    text-align: center;
+    display: block;
+    
+}
+#p1{
+    text-align: center ;
+    text-decoration: underline dotted red;
+}
+
+
+
+#p2{
+    font-family: "cursive";
+    text-align: center;
+    font-size: 16px;
+    line-height: 15px;
+    text-transform: capitalize; /*capitalize, uppercase, lowercase, none*/
+    }
+a {
+    text-decoration: none;
+}
+.div1{
+    background-color: blueviolets;
+    height: 100px;
+    width: 100px;
+    padding:  0px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(0, 255, 85);
+    text-align: center;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 30px 20px 10px;
+}
+.div3{
+    background-color:rgb(230, 148, 186);
+    display: inline;
+}
+.box{
+
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px dotted white;
+    border-radius: 15px;
+
+}
+#a1{
+    display: none; /*here it will be disapared without taking space*/
+}
+#a2{
+    visibility: hidden;
+    /*here it will be hidden but it will take space*/
+}
+
+#box4{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+#box5{
+    
+    width: 30%; 
+    background-color: yellow;
+    margin: 10px; 
+    font-size: 2em; /*2em means 2 times the font size of the parent which is box4(10px)*/
+    width: 5em; /*5em means 5 times the font size of the element itself which is 20*5=100px*/
+    height: 5rem; /*5rem means 5 times the font size of the root size of the root element which is 16*5=80px*/
+
+    /* width: 1vn;  vh:relative to 1% of viewport height  and vw: relative to 1% of viewport width (viewport is the area of the browser window)*/
+}
+.position{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(236, 155, 155);
+    border: 2px solid black;
+    display: inline-block;
+
+}
+#box0{
+    position: static;
+}
+#box1{
+    position: relative;   /*element will move relative to its original position*/
+    top: 20px;
+    left: 20px;
+
+}
+#box2{
+    background-image: url(taryn-kaahanui-J5b23iaAHis-unsplash.jpg);
+    position: absolute; /*element will move relative to its nearest positioned parent*/
+    top: -20px;
+    left: 300px;
+    z-index: 2;
+}
+#box3{
+    background-color: black;
+    position: fixed; /*element will move relative to the window */
+    bottom: 250px;
+    right: 5px;
+    color: white;
+    border: 1px dotted white;
+    border-radius: 15px;
+    z-index: -2;
+    width: 10%;
+    display:block;
+}
+#box6{
+    background-color: violet;
+    position: sticky;
+    top: 0px;
+    
+}
+
+#box7{
+    height: 100px;
+    width: 100px;
+    background-image: url(taryn-kaahanui-J5b23iaAHis-unsplash.jpg);
+    background-size: cover;  /*cover/contain/auto */
+}
+
+.flexbox{
+    
+    
+    background-image: url(taryn-kaahanui-J5b23iaAHis-unsplash.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;  /*row, reverse row, column, reverse column*/
+    justify-content: center;  /*space-between, space-around, flex-end, flex-start, center */
+    flex-wrap: wrap;
+    align-items: center;
+    /* align-content: flex-start; */
+}
+.fle{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px dotted rgb(245, 242, 242);
+    border-radius: 15px;
+
+}
+
+#fle1{
+    background-color:blueviolet
+}
+#fle2{
+    background-color:rgb(43, 46, 226);
+    /* height: 200px; 
+    align-self: flex-end; */
+}
+#fle3{
+    background-color:rgb(214, 181, 33);
+    /* height: 75px; */
+}
+#fle4{
+    background-color:rgb(14, 221, 76);
+}
+#fle5{
+    background-color:rgb(221, 14, 14);
+    /* align-self: flex-end; */
+}
+.navbar{
+    color: white;
+    background-color: rgb(34, 7, 109);
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+/* ol{
+    display: flex;
+    justify-content: space-between;
+} */
+a{
+    color:white;
+    text-decoration: none;    
+}
+li{
+    background-color: black;
+    list-style-type: none;
+    display: inline;
+}
+
+#f1{
+    background-color: rgb(1, 0, 2);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#f2{
+    background-color: rgba(0, 0, 250, 0.9);
+    height: 50px;
+    width: 50px;    
+}
+
+#colorchange{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+@media (min-width: 600px) and (max-width: 700px){
+    #colorchange{
+        background-color: green;
+    }
+}
+
+#hover{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(230, 15, 201);
+    margin: 30px;
+    border-radius: 15px;
+        font-size: 22px;
+}
+#hover:hover{
+    background-color:rgba(50, 15, 253, 0.5);
+    font-size: 22px;
+     transform: scale(.8);
+    /*transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+    transition: all 2s ease-in-out 0.1s;
+    transform: translate(50px,50px );
+    
+   
+    
+}
+#rotate{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    
+}
+#rotate:hover{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    left: 100px;
+    transition: all 2s ease-in-out 0.1s;
+    transform: rotate(180deg);
+    
+}
+
+button:active{
+    visibility: hidden;
+}
+
+#An1{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    background-color: purple;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    border-radius: 15px;
+    animation-name: An1;
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+amination : name duration function(linear, ease, ease-in, ease-out, ease-in-out) delay count direction (animation shorthand)
+ 
+}
+@keyframes An1{ 
+    form{left: 0px;}
+    to{left: 200px;}
+    /* from{
+        left: 0px;
+        background-color: purple;
+    }
+    to{
+        left: 200px;
+        background-color: green;
+    } */
+}
