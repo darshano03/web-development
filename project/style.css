@@ -1,0 +1,20 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+ }
+ 
+ 
+ .container{
+    max-width: 80%;
+    background-color:#27A581 ;
+    margin: auto;
+ }
+ h1{
+    text-align: center;
+
+ }
+ p{
+    text-align: center;
+ }
