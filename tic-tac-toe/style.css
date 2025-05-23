@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color: black;
+}
+body{
+    
+    
+}
+.container{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+ 
+}
+.game{
+    border: 2px solid black;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin: 20px;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 2px solid white;
+}
+#resetButton{
+    border : 2px solid rgb(0, 0, 0);
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 22px;
+    background-color: black;
+    border: 2px solid white; /*bordershorthand*/
+    border-radius: 15px; 
+    margin: 30px;
+    display: block;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+    
+}
