@@ -149,21 +149,127 @@ for(let val of items){
 // let userName = prompt("enter your name");
 // let length = userName.length;
 // console.log(a.concat(userName).concat(length));
-citys = ["pune","mumbai","bangalore","hyderabad","chennai"];
-for(let city of citys){
+// citys = ["pune","mumbai","bangalore","hyderabad","chennai"];
+// for(let city of citys){
 
-    console.log(city.toUpperCase());
-}
+//     console.log(city.toUpperCase());
+// }
 
-marks=[25,26,27,28,29];
-let avg=0;
-for(let i of marks){    
-avg+=i;
-}
-avg=avg/marks.length;
-console.log(avg);
-let idx=0;
-for(let i of marks){
-    console.log("marks",idx,"=",i);
-    idx++;
-}
+// marks=[25,26,27,28,29];
+// let avg=0;
+// for(let i of marks){    
+// avg+=i;
+// }
+// avg=avg/marks.length;
+// console.log(avg);
+// let idx=0;
+// for(let i of marks){
+//     console.log("marks",idx,"=",i);
+//     idx++;
+// }
+
+// let deletedVal = marks.pop();
+// console.log(deletedVal);
+// console.log(marks.toString());
+
+// marks.push(30);
+// marks.unshift(20); //add element at the start
+// marks.shift(); //remove element from the start  
+// console.log(marks.slice(1,3));
+//     marks.splice(1,2,45,46);//remove 2 elements from index 1 and add 45 and 46 (.splice(start,deleteCount, item1, item2, ...))
+
+
+    // function sum(a,b){
+    //     return a+b+10;
+    // }
+    // console.log(sum(10,20));
+
+    // let str=prompt("enter a word");
+    // vowel(str.toLowerCase());
+
+    // function vowel(str){
+    //     let count=0;
+    //     for(let i of str){
+    //         if(i=="a"||i=="e"||i=="i"||i=="o"||i=="u"){
+    //             count++;
+    //         }
+    //     }
+    //     console.log("no of vowels in",str,"is",count);
+    // }
+// let student=["darshan",22,6.8,true];
+
+// student.forEach(function print(s , idx, student)  {
+//     console.log(s,idx,student);
+// });   // forEach is used only for arrays
+
+
+// let arr=[1,2,3,4,5];
+
+// arr.forEach(squ);   //ex 1
+
+// function squ(x){
+//     console.log(x*x);
+// };
+
+// let arr=[1,2,3,4,5];
+// arr.forEach((x) => {
+//     console.log(x);
+// });
+
+// let arr=[1,2,3,4,5];
+// let newarr=arr.map((x)=>{         //map is used for arrays it creates a new array
+//     return x;
+// }); 
+
+
+// let arr0=[1,2,3,4,5];
+// let newarr0=arr.map((x)=>{         //map is used for arrays it creates a new array
+//     return x % 2 ==0;
+// }); 
+// console.log(newarr0);
+
+
+// console.log(newarr);
+
+// let arr2 = arr.filter((x)=>{
+//     return x % 2==0;
+// });
+// console.log(arr2);
+
+// let sum=arr.reduce((x,y)=>{   // here the reduce function is used to find the single element in the array 
+//     return x>y?x:y;    
+// });
+// console.log(sum);
+
+// student=[90,34,32,65,97,68,96,45];
+// let topper = student.filter((x)=>{
+//     return x>90;
+// });
+// console.log(topper);
+
+// let n=prompt("entre a number");
+// let arr=[];
+// for(let i=0;i<=n;i++){
+//     arr[i-1]=i;
+// }
+// console.log(arr);           //ex2
+
+// let sum=arr.reduce((x , y) =>{
+//     return x+y;
+// });
+// console.log(sum);
+
+
+
+
+// dom(document object model) it is used for dynamic changes
+// console.dir(window);
+// console.log(document);
+// console.log(document.body);
+// console.log(document.body.childNodes[1]);
+// document.body.childNodes[1].innerText="abcd";   //
+
+
+
+let heading = document.getElementById("heading");
+console.dir(heading);
