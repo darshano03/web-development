@@ -266,10 +266,17 @@ for(let val of items){
 // console.dir(window);
 // console.log(document);
 // console.log(document.body);
-// console.log(document.body.childNodes[1]);
+// console.log(document.body.childNodes[1]);>>
 // document.body.childNodes[1].innerText="abcd";   //
 
 
 
-let heading = document.getElementById("heading");
+// let heading = document.getElementByid("heading");
+// console.dir(heading);
+
+let heading = document.getElementsByClassName("heading");
+console.log(heading);
 console.dir(heading);
+
+let para = document.getElementsByTagName("p");
+console.dir(para);
