@@ -274,9 +274,41 @@ for(let val of items){
 // let heading = document.getElementByid("heading");
 // console.dir(heading);
 
-let heading = document.getElementsByClassName("heading");
-console.log(heading);
-console.dir(heading);
+// let heading = document.getElementsByClassName("heading");
+// console.log(heading);
+// console.dir(heading);
 
-let para = document.getElementsByTagName("p");
-console.dir(para);
+// let para = document.getElementsByTagName("p");
+// console.dir(para);
+
+// let el = document.querySelector("p");
+// console.log(el.tagName);
+// console.log(el.innerText);
+// console.log(document.querySelector("div"));
+// console.log(document.querySelector("div").children);
+// console.log(document.querySelector("div").children[1].innerText);
+// console.log(document.querySelector("div").children[1].innerText="mnop");
+// console.log(document.querySelector("div").children[1].innerText);
+// console.log(document.querySelector("ol").innerText);
+// console.log(document.querySelector("ol").innerHTML);
+// console.log(document.querySelector("ol").innerHTML="<li>list 4</li>");
+// console.log(document.querySelectorAll("ol").innerHTML);
+// //textcontent
+// let hi=document.querySelector("h2");
+// hi.innerText=hi.innerText + "from apna college student";
+// console.log(hi.innerText);
+// let boxes=document.querySelectorAll(".box");
+// boxes.forEach((box,index)=>{
+//     box.innerText="new unique value"+index;
+// });  
+// let hed=document.querySelector("box");
+// console.log(hed.getAttribute("class"));
+
+// let para = document.querySelector("p");
+// console.log(para.getAttribute("id"));
+// let para=document.querySelector("p");
+// console.log(para.setAttribute("id","parachanged"))
+
+let box=document.querySelector("#first1");
+box.style.backgroundColor="blue";
+box.style.color="white";

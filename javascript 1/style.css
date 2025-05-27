@@ -8,5 +8,13 @@ button{
 }
 .heading{
     color:chocolate;
-    
+
+}
+.box{
+    height:70px;
+    width:70px;
+    border: 2px solid black; 
+    margin: 20px;
+    text-align: center;
+
 }

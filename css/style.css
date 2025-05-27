@@ -157,6 +157,7 @@ a {
 }
 #box6{
     background-color: violet;
+    
     position: sticky;
     top: 0px;
     
@@ -178,7 +179,7 @@ a {
     height: 600px;
     display: flex;
     flex-direction: row;  /*row, reverse row, column, reverse column*/
-    justify-content: center;  /*space-between, space-around, flex-end, flex-start, center */
+    justify-content: center;  /*space-between,/ space-around, /flex-end, flex-start, center */
     flex-wrap: wrap;
     align-items: center;
     /* align-content: flex-start; */
@@ -274,7 +275,7 @@ li{
     /*transition-duration: 2s;
     transition-timing-function: ease-in-out;
     transition-delay: 1s; */
-    transition: all 2s ease-in-out 0.1s;
+    transition: all 2s ease-in-out 0.1s; /*all delay duration timing function*/
     transform: translate(50px,50px );
     
    
