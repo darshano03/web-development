@@ -38,7 +38,7 @@ boxes.forEach((box)=>{
         msg.style.display="none";
         msgv.style.display="none";
         msgv2.style.display="none";
-        resetBtn.style.display="block";
+        resetBtn.style.display="none";
     })
 })
     resetButton.addEventListener("click",()=>{
@@ -48,6 +48,7 @@ boxes.forEach((box)=>{
             msg.style.display="none";
             msgv.style.display="none";
             msgv2.style.display="none";
+            resetBtn.style.display="none";
         })
 })     
 
