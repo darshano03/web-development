@@ -12,21 +12,25 @@
     <h1 class="heading">java script</h1>
     <h3>topic1 : starter code</h3>
     <P id="para">Let's learn about DOM </P>
-    <div><ol>
+    <div class="list"><ol>
         <li>list 1</li>
         <li>list 2</li>
         <li>list 3</li>
     </ol></div>
     <h2>hello javascript</h2>
-    <button>click me</button>
+    <button onclick="alert('hello world')">click me</button>
+    <button ondblclick="alert('hello world x2')" onclick="console.log('button clicked onced')">click me x2</button>
     <div class="box" id="first1" name="first1">first box</div>
-    <div class="box">second box</div>
-    <div class="box">third box</div>
-    
+    <div onmouseover="console.log('mouse over');alert('mouse hover on box2')" class="box">second box</div>
 
+
+
+    <div class="box" id="box3" name="box3">third box</div>
+    <div class="box" id="box4" name="box4">fourth box</div>
+    
     
     <div id="first" name="nameFirst">this is a div</div>
-    <script src="first.js"></script>
-
+<button id="mode">change mode</button>
+<script src="first.js"></script>
 </body>
 </html>

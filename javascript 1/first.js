@@ -310,5 +310,83 @@ for(let val of items){
 // console.log(para.setAttribute("id","parachanged"))
 
 let box=document.querySelector("#first1");
-box.style.backgroundColor="blue";
+box.style.backgroundColor="green";
 box.style.color="white";
+box.style.border="10px solid white";
+
+let newbtn = document.createElement("button");
+newbtn.innerText="click me";
+newbtn.style.backgroundColor="red";
+
+let div = document.querySelector(".list");
+div.append(newbtn);//adds at the end of the node
+// div.prepend(newbtn);//adds at the start of the node
+// div.before(newbtn);//adds before the node
+// div.after(newbtn);//adds after the node
+
+let newHeading=document.createElement("h1");
+newHeading.innerText="Hi ,  I am newly added by javaScript";
+document.body.prepend(newHeading);
+document.body.prepend(newbtn);
+
+let para=document.querySelector("p");
+
+let box3=document.querySelector("#box3");
+box3.onclick =(evt) => {
+    console.log("box was clicked");
+    console.log(evt);
+    console.log(evt.type);
+    console.log(evt.target);
+    console.log(evt.clientX,evt.clientY);
+}
+box3.onmouseover =() => {
+    box3.innerText="hovered";
+    console.log("you are inside box");
+}
+
+box4.addEventListener("mouseover",()=>{
+    console.log("box was clicked");
+    
+    box4.style.scale=1.5;
+    box4.style.transition="all 1s ease-in-out";
+})
+
+const box41 = () => {
+    box4.innerText="clicked1";
+    
+}
+box4.addEventListener("click",box41);
+box4.removeEventListener("click",box41); //for removing event listener
+
+// let modebtn=document.querySelector("#mode");
+// let currentMode="light";
+// modebtn.addEventListener("click",()=>{
+//     if(currentMode === "light"){
+//         document.body.style.backgroundColor="black";
+//         document.body.style.color="white";
+//         modebtn.innerText="light mode";
+//         currentMode="dark";
+//     }                  // dark mode light mode toggle
+//     else{                        
+//         document.body.style.backgroundColor="white";
+//         document.body.style.color="black";
+//         modebtn.innerText="dark mode";
+//         currentMode="light";
+//     }
+// })
+
+let modebtn=document.querySelector("#mode");
+let currentMode="light";
+modebtn.addEventListener("click",()=>{
+    if(currentMode === "light"){
+       currentMode="dark";
+       modebtn.innerText="light mode";
+       document.querySelector("body").classList.add("dark-mode");
+    }
+    else{
+        currentMode="light";
+        modebtn.innerText="dark mode";
+        document.querySelector("body").classList.remove("dark-mode");
+        
+    }
+})

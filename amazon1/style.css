@@ -11,6 +11,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.search-icon:active{
+    scale: .8;
+}
 .content{
     position: sticky;
     top: 0px;
