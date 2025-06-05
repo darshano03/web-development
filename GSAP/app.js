@@ -120,19 +120,17 @@ gsap.from("#page2 .box",{
         trigger:"#page2 .box",
         start:"bottom 90%",
         end:"top 10%",
-        markers:true, 
         scrub:1,
     }
 })
 
-gsap.to("#page3 h2 ",{
+gsap.to("#page3 h2",{
     transform:"translateX(-28%)",
 
     scrollTrigger:{
         trigger:"#page3",
         start:"top 0%",
-        end:"top -100%",
-        markers:true, 
+        end:"top -100%", 
         scrub:1,
         pin:true,
     }

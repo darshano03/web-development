@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=content_copy" />
+</head>
+<body>
+<div class="container">
+    <h1>Password Generator</h1>
+    <div class="outputbox">
+        <input type="text" class="passBox" placeholder="Get The Strongest Password" disabled><span id="copy" class="material-symbols-outlined copy">
+            content_copy
+            </span>
+    </div>
+   
+    <input id="lengthRange"type="range" value="8" min="1" max="30" id="length">
+   
+    <div class="row1">
+        <p>Password Lenght</p>
+        <span id="lengthValue">8</span>
+    </div>
+
+    <div class="row1">
+        <lable for="lowercase" class="checkbox">Include Lowercase Letter (a-z)</lable>
+        <input type="checkbox"  name="lowerCase" id="lowerCase">
+    </div>
+
+
+    <div class="row1">
+        <lable for="uppercase" class="checkbox">Include Uppercase Letter (A-Z)</lable>
+        <input type="checkbox"  name="upperCase" id="upperCase">
+    </div>
+
+    <div class="row1">
+        <lable for="numbers" class="checkbox">Include numbers (0-9)</lable>
+        <input type="checkbox"  name="numbers" id="numbers">
+    </div>
+
+    <div class="row1">
+        <lable for="special" class="checkbox">Include Special Characters</lable>
+        <input type="checkbox"  name="special" id="special">
+    </div>
+
+    <button id="generate">Generate Password</button>
+<script src="app.js"></script>
+</div> 
+</body>
+</html>
