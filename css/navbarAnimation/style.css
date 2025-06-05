@@ -23,18 +23,18 @@ nav{
     align-items: center;
     
 }
-a{
+ a{
     position: relative;
-    display inline-block;
+    display :inline-block;
     font-size: 1.5em;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-    padding 0 23px;
+    padding :0 23px;
     z-index: 1;
 
 }
-span{
+ span{
     position: absolute;
     top: 0;
     left: 0;
@@ -42,20 +42,21 @@ span{
     height: 100%;
     border-radius: 12px;
     transition:.5s;
-    background: linear-gradient(45deg,#0f013f ,#0434d3 )
+    background: linear-gradient(45deg,#201111ea ,red );
+    
 }
-nav a:nth-child(2):hover~span{
+a:nth-child(2):hover~span{
     left: 20%;
-
+    
 }
-nav a:nth-child(3):hover~span{
+a:nth-child(3):hover~span{
     left: 40%;
     width: 21%;
 }
 nav a:nth-child(4):hover~span{
     left: 60%;
     width: 22%;
-
+    
 }
 nav a:nth-child(5):hover~span{
     left: 80%;
