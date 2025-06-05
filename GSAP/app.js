@@ -130,7 +130,11 @@ gsap.to("#page3 h2",{
     scrollTrigger:{
         trigger:"#page3",
         start:"top 0%",
+<<<<<<< HEAD
         end:"top -100%", 
+=======
+        end:"top -100%",
+>>>>>>> 4969b1db8ef16ea39eabd5fab098d0ac176eee38
         scrub:1,
         pin:true,
     }
