@@ -120,7 +120,6 @@ gsap.from("#page2 .box",{
         trigger:"#page2 .box",
         start:"bottom 90%",
         end:"top 10%",
-        markers:true, 
         scrub:1,
     }
 })
@@ -132,7 +131,6 @@ gsap.to("#page3 h2 ",{
         trigger:"#page3",
         start:"top 0%",
         end:"top -100%",
-        markers:true, 
         scrub:1,
         pin:true,
     }
